@@ -54,5 +54,16 @@ Page Count is
 <c:forEach var="k" begin ="1" end="10" step="1">
     <c:out value="${k}" />
 </c:forEach>
+
+홀수는 :
+<c:forEach var="k" begin ="1" end="10" step="2">
+    <c:out value="${k}" />
+</c:forEach>
+<br>
+짝수는 :
+<c:forEach var="k" begin ="2" end="10" step="2">
+    <c:out value="${k}" />
+</c:forEach>
+
 </body>
 </html>
