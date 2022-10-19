@@ -12,7 +12,7 @@
 </head>
 <body>
 <%
-  MultipartRequest multi = new MultipartRequest(request, "/Users/hwanghyeonjeong/upload",
+  MultipartRequest multi = new MultipartRequest(request, "/Users/hwanghyeonjeong/IdeaProjects/JSP_Test/web/upload",
           5 *1024*1024, "utf-8", new DefaultFileRenamePolicy());
 
   Enumeration params = multi.getParameterNames();
