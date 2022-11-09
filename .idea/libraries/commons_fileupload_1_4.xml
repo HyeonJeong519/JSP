@@ -4,6 +4,7 @@
       <root url="jar://$USER_HOME$/Downloads/commons-fileupload-1.4.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/commons-io-2.7.jar!/" />
       <root url="jar://$USER_HOME$/Downloads/cos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/web/WEB-INF/lib/jstl-1.2 (1).jar!/" />
     </CLASSES>
     <JAVADOC />
     <SOURCES />

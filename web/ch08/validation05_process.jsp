@@ -1,0 +1,21 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: hwanghyeonjeong
+  Date: 2022/11/02
+  Time: 10:15 AM
+  To change this template use File | Settings | File Templates.
+--%>
+<%@ page contentType="text/html;charset=UTF-8" language="java" %>
+<html>
+<head>
+    <title>Title</title>
+</head>
+<body>
+<% request.setCharacterEncoding("uft-8");%>
+<p>아이디 : <%=request.getParameter("id")%></p>
+<p>비밀번호 : <%=request.getParameter("passwd")%></p>
+<p>이름 : <%=request.getParameter("name")%></p>
+<p>연락처 : <%=request.getParameter("phone1")%>-<%=request.getParameter("phone2")%>-<%=request.getParameter("phone3")%></p>
+<p>이메일 : <%=request.getParameter("email")%></p>
+</body>
+</html>
