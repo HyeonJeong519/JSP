@@ -18,7 +18,6 @@
     return;
   }
 %>
-
 <h3><%=userId %>님 반갑습니다.</h3>
 <a href="./session_out.jsp">로그아웃</a>
 </body>

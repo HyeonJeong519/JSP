@@ -47,11 +47,11 @@
     </div>
     <div class="container">
         <h2 class="alert alert-danger">주문해주셔서 감사합니다.</h2>
-        <p>주문은<%    out.println(shipping_shippingDate);%>에 배송될 예정입니다!</p>
+        <p>주문은<%out.println(shipping_shippingDate);%>에 배송될 예정입니다!</p>
         <p>주문번호 : <%out.println(shipping_cartId);%></p>
     </div>
     <div class="container">
-        <p> <a href="./products.jsp" class="btn btn-secondary"> &laquo; 상품 목록</a> </p>
+        <p> <a href="./books.jsp" class="btn btn-secondary"> &laquo; 상품 목록</a> </p>
     </div>
 </body>
 </html>
